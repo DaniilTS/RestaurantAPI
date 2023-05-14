@@ -1,5 +1,7 @@
 # RestaurantAPI
 
+Before run change db connection string in appsettings.json!
+
 Changes that has been done:
 - RestManager constructor doesn't take tables list as a parameter, because it takes them from database
 - ClientsGroup:
