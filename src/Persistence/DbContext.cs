@@ -12,7 +12,6 @@ namespace Persistence
 
         public DbContext(DbContextOptions<DbContext> options) : base(options)
         {
-            Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 
